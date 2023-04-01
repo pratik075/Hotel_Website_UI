@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,100&family=Square+Peg&display=swap');
+
+* {
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    overflow-y: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    /* font-family: latha; */
+    color: white;
+    background-image:
+        linear-gradient(to top, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)),
+        url('food.jpg');
+    background-size: cover;
+    /* background-repeat: no-repeat;
+    
+    /* overflow-y: hidden; */
+
+}
+
+.box {
+    margin: none;
+    width: 900px;
+    float: right;
+    /* border: 1PX solid black; */
+    padding-left: 10px;
+    /* background-color: #FFF9CA; */
+    opacity: 0.64;
+
+
+}
+
+ul {
+    list-style: none;
+}
+
+.box ul li {
+    font-size: 23px;
+    /* width: 120px; */
+    float: left;
+    margin: 10px;
+    text-align: center;
+    font-weight: 900;
+    padding-right: 80px;
+}
+
+.box ul li a {
+    text-decoration: none;
+    /* color: #100F0F; */
+    color: white;
+}
+
+/* .box ul li a:hover{
+    color: yellowgreen;
+    
+} */
+
+.box ul li::after {
+    content: '';
+    width: 0%;
+    height: 1px;
+    background: #F5BB49;
+    transition: 0.5s;
+    display: block;
+    margin: auto;
+
+}
+
+.box ul li:hover::after {
+    width: 100%;
+}
+
+.wd {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 300px;
+}
+
+.wd .left {
+    margin-left: -300px;
+    margin-top: -500px;
+}
+
+.wd .left h1 {
+    text-align: center;
+    font-weight: 500px;
+
+}
+
+.wd .left h4 {
+    text-align: justify;
+    color: rgb(255, 253, 253);
+    font-weight: normal;
+    font-size: 20px;
+    padding: 20px;
+    /* margin-top: 2px; */
+    /* font-weight: 900; */
+
+}
+
+.wd .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 250px;
+    margin-top: 4px;
+
+
+}
+
+.wd .center h2 {
+
+    text-align: left;
+    font-weight: normal;
+    margin: 12px auto;
+    font-size: 50px;
+
+}
+
+.btn {
+    background-color: black;
+    color: white;
+    padding: 15px;
+    width: 150px;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+
+.opt span {
+    font-size: large;
+}
+
+.btn:hover {
+    background-color: white;
+    color: black;
+
+}
+
+
+
+   
